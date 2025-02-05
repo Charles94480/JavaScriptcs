@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: rgba(253, 235, 201, 0.856);
+}
+
+h1 {
+    background-color: rgb(173, 173, 23);
+    border-radius: 5px;
+    width: 550px;
+    color: rgb(0, 0, 0);
+    text-indent: 20px;
+}
