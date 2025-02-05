@@ -6,19 +6,20 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Cheque sua nacionalidade</h1>
-    <label for="pais">Digite o seu país:</label>
-    <input type="text" name="pais" id="pais" placeholder="Seu país" required>
-    <input type="button" value="Confirmar" onclick="calcular()">
-    <div id="res"></div>
+    <p>digite seu país</p><input type="text" name="pais" id="pais">
+    <input type="button" value="checar" onclick="calcular()">
+    <DIV id="res"></DIV>
 
     <script>
-        let calcular = document.getElementById('pais')
-
-        if (calcular == Brasil){
-           res.innerHTML +='Sua nacionalidaed é brasileira'
+       function calcular() {
+        let nacionalidade = window.document.getElementById('pais')
+        res.innerHTML = "voce foi checado"
+        if (nacionalidade == Brasil) {
+           res.innerHTML += 'a'
         }
         
+       }
+
     </script>
     
 </body>
